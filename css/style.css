@@ -1,0 +1,6 @@
+.square-container{
+    width: 50px;
+    aspect-ratio: 1/1;
+    padding: 1rem;
+    border: 1px dashed red;
+}

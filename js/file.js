@@ -8,19 +8,35 @@ for ( let i = 0; i <= 100; i++ ) {
     containerBuzzEl.innerHTML += `<div class="square-container"> ${i} </div>`;
     console.log(containerBuzzEl);
 
-    if ( i % 3 === 0 ) {
+    // if ( i % 3 === 0 ) {
 
-        console.log("Fizz");
+    //     
 
-    } else if( i % 5 === 0 ) {
+    // } else if( i % 5 === 0 ) {
         
-        console.log("Buzz");
+    //     console.log("Buzz");
 
-    } 
+    // } 
     
-    if ( ( i % 3 === 0 ) && ( i % 5 === 0 ) ){
+    // if ( ( i % 3 === 0 ) && ( i % 5 === 0 ) ){
 
+    //     console.log("FizzBuzz");
+
+    // }
+
+    if ( ( i % 3 === 0 ) || ( i % 5 === 0 ) )  {
+
+        if ( i % 3 === 0 ) {
+
+            console.log( "Fizz" );
+
+        } else ( i % 5 === 0 ) {
+
+            console.log( "Buzz" );
+        }
+
+    }else ( ( i % 3 === 0 ) && ( i % 5 === 0 ) ){
         console.log("FizzBuzz");
-
     }
 }
+

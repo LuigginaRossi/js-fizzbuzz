@@ -1,7 +1,31 @@
+body{
+    font-family: 'Poor Story', cursive; 
+    font-weight: bold;
+    font-size: large;
+}
+
+h1{
+    flex-basis: 100%;
+    font-size: 4rem;
+}
+
 .square-container{
-    width: 50px;
+    width: 100px;
     aspect-ratio: 1/1;
     padding: 1rem;
-    border: 1px dashed red;
-    display: inline-block;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(127,70,252,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem 1rem 1rem;
+    border-radius: 20px;
+    transition: all .3s linear;
 }
+
+.square-container:hover{
+    background: rgb(243,252,70);
+    background: linear-gradient(0deg, rgba(243,252,70,1) 0%, rgba(83,195,45,1) 100%);
+    transform: scale(1.1);
+}
+

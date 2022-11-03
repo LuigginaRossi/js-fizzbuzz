@@ -7,11 +7,6 @@ for ( let i = 1; i <= 100; i++ ) {
 
     containerBuzzEl.innerHTML += `<div class="square-container"> ${i} </div>`;
 
-    
-
-   
-
-    //   TENTATIVO3: FAILED
      if ( i % 15 === 0 ) {
 
          console.log( "FizzBuzz" );
@@ -30,6 +25,8 @@ for ( let i = 1; i <= 100; i++ ) {
 
          containerBuzzEl.innerHTML += `<div class="square-container"> Fizz </div>`;
 
+      } else {
+         console.log( i );
       }
 
 }
